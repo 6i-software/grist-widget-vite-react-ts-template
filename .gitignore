@@ -22,7 +22,6 @@ build
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
@@ -32,4 +31,3 @@ build
 # OS / misc
 .DS_Store
 Thumbs.db
-*.log

@@ -1,0 +1,58 @@
+{
+  "name": "@6i/grist-widget-vite-react-ts-template",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A lightweight boilerplate for building Grist custom widgets using React TypeScript in Vite.js ecosystem.",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/dev.js",
+    "preview": "node tools/preview.js",
+    "build": "node tools/build.js",
+    "lint": "eslint .",
+    "vite": "vite",
+    "vite-preview": "vite preview",
+    "vite-build": "tsc -b && vite build",
+    "grist-up": "docker compose up -d",
+    "grist-down": "docker compose down",
+    "grist-logs": "docker compose logs -f"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@eslint/js": "^10.0.1",
+    "@rolldown/plugin-babel": "^0.2.3",
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.2",
+    "vite": "^8.0.10",
+    "vite-plugin-singlefile": "^2.3.3"
+  },
+  "gristWidget": {
+    "name": "Startiflette (dev)",
+    "url": "http://localhost:5173/index.html",
+    "widgetId": "@6i/grist-widget-title",
+    "published": true,
+    "accessLevel": "none",
+    "renderAfterReady": true,
+    "description": "Lorem ipsupm dolor sit amet.",
+    "isGristLabsMaintained": false,
+    "authors": [
+      {
+        "name": "v20100v",
+        "url": "https://github.com/v20100v"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Startiflette (dev)",
+    "url": "http://localhost:5173/index.html",
+    "widgetId": "@6i/grist-widget-title",
+    "published": true,
+    "accessLevel": "none",
+    "renderAfterReady": true,
+    "description": "Lorem ipsupm dolor sit amet.",
+    "isGristLabsMaintained": false,
+    "authors": [
+      {
+        "name": "v20100v",
+        "url": "https://github.com/v20100v"
+      }
+    ]
+  }
+]
