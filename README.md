@@ -31,7 +31,7 @@ This boilerplate provides a robust foundation for building Grist custom widgets.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AOT-DEP-BADI/grist-widget-vite-react-ts-template.git
+   git clone https://github.com/6i-software/grist-widget-vite-react-ts-template.git
    ```
 
 

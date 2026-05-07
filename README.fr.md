@@ -31,7 +31,7 @@ Ce boilerplate fournit une base solide pour développer des widgets personnalis�
 
 1. **Cloner le dépôt**
    ```bash
-   git clone https://github.com/AOT-DEP-BADI/grist-widget-vite-react-ts-template.git
+   git clone https://github.com/6i-software/grist-widget-vite-react-ts-template.git
    ```
 
 

@@ -2,7 +2,7 @@
   "name": "@6i/grist-widget-vite-react-ts-template",
   "private": true,
   "version": "0.0.1",
-  "description": "A lightweight boilerplate for building Grist custom widgets using React TypeScript in Vite.js ecosystem.",
+  "description": "A lightweight boilerplate for building Grist custom widgets using React TypeScript in Vite.js.",
   "type": "module",
   "scripts": {
     "dev": "node tools/dev.js",
