@@ -43,12 +43,10 @@ Ce boilerplate fournit une base solide pour développer des widgets personnalis�
 
 3. **Configurer votre widget** en modifiant le champ `grist` dans le `package.json` racine. Cela rend le widget disponible dans votre catalogue de widgets personnalisés Grist.
    ```json
-   /** ./package.json **/
    {
      "name": "@badi/grist-widget-title",
      "version": "0.0.1",
      "description": "Un widget Grist pour ...",
-     // ... //
      "gristWidget": {
        "name": "Widget titre (dev)",
        "url": "http://localhost:5173/index.html",
@@ -67,6 +65,7 @@ Ce boilerplate fournit une base solide pour développer des widgets personnalis�
 4. **Démarrer l'environnement de développement Grist local**
    ```bash
    pnpm dev
+   pnpm dev --verbose
    ```
    > **Astuce** : Pour un affichage plus détaillé au démarrage, vous pouvez utiliser le flag `--verbose` ou `-v` dans la commande `pnpm dev --verbose`. Cela est utile pour déboguer l'orchestration des conteneurs ou l'initialisation du serveur.
 
@@ -105,6 +104,7 @@ Le processus de build compile votre code source TypeScript et vos assets en un w
 ```bash
 pnpm build
 ```
+> **Astuce** : Pour un affichage plus détaillé, vous pouvez utiliser le flag `--verbose` ou `-v` dans la commande `pnpm build --verbose`.
 
 #### Stratégies de build
 
@@ -138,6 +138,7 @@ Le mode prévisualisation vous permet de tester la version prête pour la produc
 ```bash
 pnpm preview
 ```
+> **Astuce** : Pour un affichage plus détaillé, vous pouvez utiliser le flag `--verbose` ou `-v` dans la commande `pnpm preview --verbose`.
 
 Cette commande orchestre quatre étapes clés :
 

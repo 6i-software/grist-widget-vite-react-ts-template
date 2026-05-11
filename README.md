@@ -48,7 +48,6 @@ This boilerplate provides a robust foundation for building Grist custom widgets.
      "name": "@badi/grist-widget-title",
      "version": "0.0.1",
      "description": "A Grist widget for ...",
-     // ... //
      "gristWidget": {
        "name": "Title widget (dev)",
        "url": "http://localhost:5173/index.html",
@@ -105,6 +104,8 @@ The build process compiles your TypeScript source code and assets into a product
 ```bash
 pnpm build
 ```
+> **Tip**: For more detailed output during startup, you can use the `--verbose` or `-v` flag in command `pnpm build --verbose`.
+
 
 #### Build Strategies
 
@@ -138,6 +139,8 @@ Preview mode allows you to test the production-ready version of your widget (the
 ```bash
 pnpm preview
 ```
+> **Tip**: For more detailed output during startup, you can use the `--verbose` or `-v` flag in command `pnpm preview --verbose`.
+
 
 This command orchestrates four key stages:
 
@@ -152,7 +155,7 @@ This command orchestrates four key stages:
 
 ## About
 
-### Want to contribute ?
+### Want to contribute?
 
 Ideas, bug reports, reports a typo in documentation, comments, pull-request & Github stars are always welcome !
 

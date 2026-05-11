@@ -1,4 +1,5 @@
 MIT License
+===========
 
 Copyright (c) 2026 6i - 2o1oo <vb20100bv@gmail.com>
 
